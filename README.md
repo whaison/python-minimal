@@ -7,6 +7,6 @@ Perform a TLSNotary audit but dont quit TLSNotary yet.
 In order to know which files in DLLs dir are in use, try to delete them one by one - Windows will warn you if file's in use.
 In Lib dir all those files which were used will have corresponding files with .pyc extension 
 
-Note that python.exe opens a console which is not great for UX. Luckily we have console-less python.exe
+Note that python.exe opens a console which is not great for UX. Luckily we have console-less pythonw.exe
 Delete python.exe and rename pythonw.exe into python.exe when releasing.
 
